@@ -51,7 +51,7 @@ nav {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 48px;
 }
 
 ul {
@@ -95,12 +95,10 @@ li {
 
 .header__img {
     width: 60%;
-    padding-left: 200px;
 }
 
 .header__img--pic {
     width: 100%;
-    max-width: 500px;
 }
 
 .heading {
@@ -158,6 +156,9 @@ FEATURES
 
 .features__container {
     padding: 96px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h3 {
@@ -168,8 +169,13 @@ h3 {
     font-size: 48px;
 }
 
+.features__description--wrapper {
+    width: 60%;
+}
+
 .features__description {
     font-size: 16px;
+    padding: 0 48px;
 }
 
 .features__container--list {
@@ -186,6 +192,7 @@ h3 {
 }
 
 .features__img {
+    width: 20%;
     border: 2px solid lightgrey;
     border-radius: 100%;
     padding: 20px;
@@ -193,6 +200,8 @@ h3 {
 }
 
 .features__img--icon {
+    width: 100%;
+    max-width: 100px;
    max-width: 400px;
 }
 
