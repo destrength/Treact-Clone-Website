@@ -112,7 +112,7 @@ li {
     margin-bottom: 48px;
 }
 
-.header__btn {
+.btn {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -127,11 +127,12 @@ li {
     font-size: 16px;
 }
 
-.header__button--click {
+.button--click {
     padding: 8px 24px;
     background-color: #6415ff;
     color: white;
     border-radius: 100px;
+
 }
 
 .header__companies {
@@ -155,7 +156,7 @@ FEATURES
 */
 
 .features__container {
-    padding: 80px 0;
+    padding: 96px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,7 +176,7 @@ h3 {
 
 .features__description {
     font-size: 16px;
-    padding: 0 48px;
+    padding: 48px 16px;
 }
 
 .features__container--list {
@@ -216,4 +217,109 @@ h3 {
 .features__p--description {
     font-size: 16px;
     padding-right: 16px;
+}
+
+/*
+
+QUALITY
+
+*/
+
+.container__quality {
+    display: flex;
+    padding: 96px 0;
+}
+
+.quality__column {
+    width: 50%;
+    padding: 16px;
+}
+
+.quality__heading {
+    font-size: 40px;
+    padding: 12px 0;
+}
+
+.quailty__description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.quality__button {
+    border: none;
+    background-color: #6415ff;
+    color: white;
+    font-weight: bold;
+    padding: 14px 28px;
+    border-radius: 20px;
+}
+
+.quailty__landing--img {
+    width: 50%;
+}
+
+.quality__img {
+    width: 100%;
+}
+
+/*
+
+STEPS
+
+*/
+
+.steps__container {
+    display: flex;
+    align-items: center;
+    padding: 96px 0;
+}
+
+.step__title {
+    margin: 16px 0 0;
+    font-size: 36px;
+}
+.steps__column {
+    width: 50%;
+    flex-direction: column;
+    margin-left: 48px;
+}
+
+.steps__img {
+    width: 50%;
+}
+
+.steps__img--pic {
+    width: 100%;
+}
+
+
+.steps__lists {
+    width: 80%;
+    flex-direction: column;
+    margin: 16px 0 0;
+}
+
+.steps__list {
+    display: flex;
+}
+
+.steps__title{
+    margin-bottom: 16px;
+}
+
+.steps__list--des {
+    
+    margin: 16px;
+   
+}
+
+.steps__nums {
+    margin: 16px;
+    font-size: 32px;
+    color: lightgrey;
+}
+
+.steps__para {
+    font-size: 16px;
 }
