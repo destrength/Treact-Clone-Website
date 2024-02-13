@@ -10,10 +10,24 @@
     color: #6415ff;
 }
 
-.words {
-    text-align: center;
-    opacity: .7;
-    margin-bottom: 36px;
+.button {
+    border: none;
+    background-color: #6415ff;
+    color: white;
+    font-weight: bold;
+    padding: 14px 28px;
+    border-radius: 20px;
+}
+
+.title {
+    margin: 16px 0 0;
+    font-size: 48px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 36px 0;
 }
 
 /*
@@ -101,17 +115,6 @@ li {
     width: 100%;
 }
 
-.heading {
-    font-size: 36px;
-    margin-bottom: 24px;
-}
-
-.subtitle {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 48px;
-}
-
 .btn {
     width: 100%;
     display: flex;
@@ -162,10 +165,6 @@ FEATURES
     align-items: center;
 }
 
-h3 {
-    letter-spacing: 2PX;
-}
-
 .features__title {
     font-size: 48px;
 }
@@ -176,7 +175,9 @@ h3 {
 
 .features__description {
     font-size: 16px;
-    padding: 48px 16px;
+    padding: 0 16px;
+    text-align: center;
+    margin: 36px 0;
 }
 
 .features__container--list {
@@ -235,26 +236,6 @@ QUALITY
     padding: 16px;
 }
 
-.quality__heading {
-    font-size: 40px;
-    padding: 12px 0;
-}
-
-.quailty__description {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 32px;
-}
-
-.quality__button {
-    border: none;
-    background-color: #6415ff;
-    color: white;
-    font-weight: bold;
-    padding: 14px 28px;
-    border-radius: 20px;
-}
-
 .quailty__landing--img {
     width: 50%;
 }
@@ -285,11 +266,11 @@ STEPS
     margin-left: 48px;
 }
 
-.steps__img {
+.img {
     width: 50%;
 }
 
-.steps__img--pic {
+.img--pic {
     width: 100%;
 }
 
@@ -309,9 +290,7 @@ STEPS
 }
 
 .steps__list--des {
-    
     margin: 16px;
-   
 }
 
 .steps__nums {
@@ -322,4 +301,55 @@ STEPS
 
 .steps__para {
     font-size: 16px;
+}
+
+/*
+
+VALUES
+
+*/
+
+.values__container {
+    display: flex;
+    padding: 96px 0;
+}
+
+.values__column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.values__principles {
+    display: flex;
+    padding: 0 0 48px;
+}
+
+i {
+    font-size: 24px;
+    margin: 12px;
+    padding: 16px;
+    border-radius: 50%;
+}
+
+.values__affordable {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.dollar {
+    color: darkgreen;
+    background-color: lightgreen;
+    
+}
+
+.suitcase {
+    color: darkred;
+    background-color: pink;
+}
+
+.values__description {
+    padding: 0 16px;
+    font-size: 14px;
 }
