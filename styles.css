@@ -65,7 +65,7 @@ nav {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 24px;
 }
 
 ul {
@@ -356,16 +356,145 @@ i {
 
 /*
 
-PRICING
+PLAN
 
 */
 
-.pricing__container {
+.plan__container {
     padding: 96px 0;
 }
 
-.pricing__description {
+.plan__description {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.plan__subscription {
+    display: flex;
+    justify-content: center;
+}
+
+.plans {
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+}
+
+.personal {
+    border-top: 10px solid rgb(56, 178, 172);
+}
+
+.business{
+    background-color: rgb(102, 126, 234);
+    border-top: 10px solid rgb(102, 126, 234);
+    color: white;
+}
+
+.enterprise {
+    border-top: 10px solid rgb(245, 101, 101);
+}
+
+.m {
+    color: rgb(177, 175, 175);
+}
+
+.monthly {
+    letter-spacing: 2px;
+}
+
+hr {
+    width:100%; 
+    height:1px;
+    background-color: red;
+}
+
+.plan__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 60px;
+    padding: 16px;
+}
+
+.plan__description {
+    line-height: 2.5;
+    padding: 24px;
+}
+
+.plan {
+    color: rgb(146, 146, 146);
+    font-weight: 500;
+}
+
+.plan--sb {
+    font-weight: 500;
+}
+
+.plan__buy-now {
+    border: none;
+    font-weight: bold;
+    padding: 14px 28px;
+    border-radius: 20px;
+    padding: 16px 56px;
+    margin: 32px 64px;
+}
+
+.btn__personal {
+    background-color: rgb(56, 178, 172);
+    color: white;
+}
+
+.btn__business {
+    background-color: white;
+    color: rgb(102, 126, 234);
+}
+
+.btn__enterprise {
+    background-color: rgb(245, 101, 101);
+    color: white;
+}
+
+/*
+
+FOOTER
+
+*/
+
+footer {
+    background-color: rgb(102, 126, 234);
+}
+
+.footer__links {
+    display: flex;
+    color: white;
+}
+
+.footer__links--main {
+    width: calc(100% / 5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    line-height: 3;
+}
+
+.footer__link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.tlogo {
+    ;
 }
